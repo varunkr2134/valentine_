@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YAY 💕</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #ffd6e8;
+            font-family: 'Comic Sans MS', cursive;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #c2185b;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .grid img {
+            width: 100%;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+<audio id="bgMusic" loop>
+    <source src="valentine/music/love.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener("click", () => {
+    document.getElementById("bgMusic").play();
+}, { once: true });
+</script>
+
+    <h1>YAYYY 💖💖💖</h1>
+
+    <div class="grid">
+        <img src="valentine/images/img1.jpg">
+        <img src="valentine/images/img2.jpg">
+        <img src="valentine/images/img3.jpg">
+        <img src="valentine/images/img4.jpg"
+    </div>
+    
+    <br><br>
+<button onclick="window.location.href='valentine.html'">
+    ⬅ Back
+</button>
+
+</body>
+</html>
